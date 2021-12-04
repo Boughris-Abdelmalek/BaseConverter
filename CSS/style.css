@@ -98,7 +98,12 @@ footer{
 #git{
     display: flex;
     justify-content: center;
+    color: white;
     margin: 0;
+}
+
+#names {
+    color:white;
 }
 
 #copyright{
