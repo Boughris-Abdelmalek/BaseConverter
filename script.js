@@ -7,6 +7,11 @@ var resetButton = document.getElementsByClassName("reset");
 var result = document.getElementById("res");
 
 
+function convertFromBaseToBase(str, fromBase, toBase){
+    var num = parseInt(str, fromBase);
+    return num.toString(toBase);
+}
+
 
 
 
