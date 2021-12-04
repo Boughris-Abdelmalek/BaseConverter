@@ -21,6 +21,15 @@ function setValue(){
 
 };
 
+function setReset(){
+    result.value = "";
+    firstInput.value = "";
+
+}
+
+
+
+
 
 
 
