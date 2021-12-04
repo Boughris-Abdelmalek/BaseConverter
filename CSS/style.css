@@ -25,11 +25,17 @@ header {
     z-index: 100;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
 .container {
     display: flex;
     justify-content: center;
     max-width:1000px;
-    margin:80px auto;
+    margin:30px auto;
     padding:0px 5px 20px;
 }
 
