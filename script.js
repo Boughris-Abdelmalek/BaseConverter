@@ -12,6 +12,25 @@ function convertFromBaseToBase(str, fromBase, toBase){
     return num.toString(toBase);
 }
 
+function setValue(){
+
+    let a = Number(firstInput.value);
+    let b = Number(value1.value);
+    let c = Number(value2.value);
+    result.value = convertFromBaseToBase(a,b,c);
+
+};
+
+
+
+
+
+
+
+
+
+
+
 
 
 
