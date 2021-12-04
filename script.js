@@ -27,6 +27,15 @@ function setReset(){
 
 }
 
+function setSwap() {
+    var val1 = value2.selectedIndex;
+    var val2 = value1.selectedIndex;
+
+    value1.selectedIndex = val1;
+    value2.selectedIndex = val2;
+  }
+
+
 
 
 
